@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JB Turismo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="geral">
+        <h2 class = "oval">JB Turismo</h2>
+        <h1>Compre sua passagem</h1>
+        <form>
+            <div class="input-container">
+                <label for="origem"></label>
+                <input type="text" id="origem" placeholder=" Local de origem" required>
+            </div> 
+            <div class="input-container">
+                <label for="destino"></label>
+                <input type="text" id="destino" placeholder=" Local de destino" required>
+            </div>
+            <div class="input-container">
+                <label for="quantidade"></label>
+                <input type="text" id="quantidade" placeholder=" Quantidade de passagens" required>
+            </div>
+            <div class="input-container">
+                <label for="classe"></label>
+                <input type="text" id="classe" placeholder=" Classe" required>
+            </div>
+            <div class="input-container checkbox-container">
+                <input type="checkbox" id="ida-volta">
+                <label for="ida-volta">Passagens de ida e volta</label>
+            </div> 
+            <div class="input-container">
+                <button type="submit" id="botaoum">Buscar</button>
+            </div>
+            <div class="input-container">
+                <a href="#" class="random-destination">Buscar Destinos Aleatórios</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
